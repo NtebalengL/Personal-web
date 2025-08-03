@@ -5,7 +5,7 @@ Welcome to my personal portfolio site. This is a minimalist, dark-themed website
 ## 🌐 Live Preview
 
 Once deployed:  
-**[https://ntebaleng.github.io/](https://ntebaleng.github.io/)**
+**[https://ntebalengl.github.io/Personal-web/](https://ntebalengl.github.io/Personal-web/)**
 
 ## 🛠️ Tech Stack
 
