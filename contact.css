@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('images/telephone.jpg'); 
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Left section */
+.contact-info {
+  flex: 1;
+  padding: 40px;
+  background-color: #1a73e8;
+  color: white;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-info .socials {
+  margin-top: 20px;
+}
+
+.contact-info .socials a {
+  color: white;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+/* Right section */
+.contact-form-container {
+  flex: 1.5;
+  padding: 40px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0f59c9;
+}
+
+/*For the navigation links on the page*/
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0a0a0a;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(178, 135, 255, 0.1);
+}
+
+body {
+  background-color: #000;
+  padding-top: 80px; /* Compensate for sticky header */
+  font-family: 'Outfit', sans-serif;
+  color: #b287ff;
+}
+
+.nav-links a {
+  color: #b287ff;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.content-section {
+  padding: 2rem;
+}
